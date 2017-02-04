@@ -1,0 +1,11 @@
+@mixin border-radius($value) {
+     border-radius: $value;
+}
+
+@mixin background-color($value) {
+     background-color: $value;
+}
+
+@mixin font-size($value) {
+     font-size: $value;
+}

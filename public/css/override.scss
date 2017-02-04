@@ -1,0 +1,92 @@
+@import 'foundation63.min.css';
+@import 'utility';
+
+.label {
+     @include border-radius(2px);
+     @include background-color(#0c3d5d);
+}
+
+.button {
+     @include border-radius(4px);
+     @include background-color(#0c3d5d);
+}
+
+.blue {
+     @include background-color(#0c3d5d);
+     color: white;
+}
+
+.tall {
+     height: 140px;
+     @include font-size(3.4rem);
+}
+
+.button.large {
+     @include font-size(3.4rem);
+}
+
+.v-center {
+     min-height: 3.4rem;
+     margin-top: 1.7rem;
+     margin-bottom: 1.7rem;
+}
+
+h1 {
+     @include font-size(3.4rem);
+}
+
+//----------------------------------------------------------------------------------------------------------------------
+
+//  http://brennaobrien.com/blog/2014/05/style-input-type-range-in-every-browser.html
+
+input[type=range] {
+     -webkit-appearance: none;
+     width: 100%;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+     height: 10px;
+     background: #ddd;
+     border: none;
+     border-radius: 5px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+     -webkit-appearance: none;
+     border: none;
+     height: 80px;
+     width: 80px;
+     border-radius: 50%;
+     background: #0c3d5d;
+     margin-top: -38px;
+}
+
+input[type=range]:focus {
+     outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+     background: #ccc;
+}
+
+//----------------------------------------------------------------------------------------------------------------------
+
+#dieQty {
+     color: white;
+     background-color: #0c3d5d;
+     @include border-radius(4px);
+}
+
+#diceType {
+     color: white;
+     background-color: #0c3d5d;
+     @include border-radius(4px);
+}
+
+/*
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+input[type=radio] {
+     display: none;
+}
+*/
