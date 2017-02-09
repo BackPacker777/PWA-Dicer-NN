@@ -65,13 +65,13 @@
     <div class="row">
         <div class="medium-3 columns">.</div>
         <div class="medium-2 columns">
-            <input type="text" class="tall text-center" id="dieQty">
+            <input type="number" class="tall text-center" id="dieQty">
         </div>
         <div class="medium-2 columns tall text-center v-center">
             <h1><strong>DIE</strong></h1>
         </div>
         <div class="medium-2 columns text-center">
-            <input type="text" id="diceType" class="tall text-center">
+            <input type="number" id="diceType" class="tall text-center">
         </div>
         <div class="medium-3 columns text-right">.</div>
     </div>
@@ -92,18 +92,6 @@
     </div>
 </form>
 <!-- SCRIPTS -->
-<script src="https://www.gstatic.com/firebasejs/3.6.8/firebase.js"></script>
-<script>
-     // Initialize Firebase
-     var config = {
-          apiKey: "AIzaSyAMTRV6E6X4iM81iTyl5QeFpIgiX_i2dQ0",
-          authDomain: "pwa-dicer-nn.firebaseapp.com",
-          databaseURL: "https://pwa-dicer-nn.firebaseio.com",
-          storageBucket: "pwa-dicer-nn.appspot.com",
-          messagingSenderId: "415488338401"
-     };
-     firebase.initializeApp(config);
-</script>
 <script src="public/javascripts/main.js"></script>
 </body>
 </html>
