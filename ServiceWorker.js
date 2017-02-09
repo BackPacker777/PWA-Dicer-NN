@@ -2,7 +2,7 @@
 
 'use strict';
 
-const CACHE_NAME = "1.03";
+const CACHE_NAME = "1.04";
 let cacheFiles = [
      '/index.html',
      '/public/css/foundation63.min.css',
