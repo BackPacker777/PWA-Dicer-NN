@@ -2,7 +2,7 @@
 
 'use strict';
 
-const CACHE_NAME = "1.02";
+const CACHE_NAME = "1.03";
 let cacheFiles = [
      '/index.html',
      '/public/css/foundation63.min.css',
@@ -44,7 +44,6 @@ self.addEventListener('fetch', (event) => {
                if (res) {
                     return res;
                }
-               // requestBackend(event);
                let requestClone = event.request.clone();
                fetch(requestClone).then((res) => {
                     if (!res) {
